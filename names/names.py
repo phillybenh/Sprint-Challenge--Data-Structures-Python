@@ -14,7 +14,7 @@ f.close()
 duplicates = []  # Return the list of duplicates in this data structure
 
 # Replace the nested for loops below with your improvements
-# Original runtime: 4.725 seconds
+# Original runtime: 4.725 seconds Polynomial O(n^2) (nested loops)
 # for name_1 in names_1:
 #     for name_2 in names_2:
 #         if name_1 == name_2:
@@ -27,7 +27,7 @@ duplicates = []  # Return the list of duplicates in this data structure
 
 #### MVP ###
 # using Binary Search Tree b/c that seems like what we're supposed to do:
-# Runtime: 0.084 seconds
+# Runtime: 0.084 seconds O(n)
 
 # initialize the BST with dummy value
 """
